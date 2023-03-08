@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'hard rock';
+    src: URL('fonts/HARD_ROCK.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'crazy';
+    src: URL('fonts/rocknroll_typo_crazy.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'the dark';
+    src: URL('fonts/TheDark.ttf') format('truetype');
+  }
+
+body{
+  font-family: serif;
+  margin: 0;
+  background-color: red;
+}
+h3{
+    color: white;
+    font-family: 'the dark';
+}
+
+/* navbar */
+nav{
+    background-color: black;
+    width: 80%;
+}
+
+nav img{
+    width: 20%;
+    min-width: 70px;
+}
+.nav-link{
+    text-decoration: none;
+    color: red;
+    font-size: 1rem;
+    font-family: 'the dark';
+}
+/* carousel */
+.carousel.slide{
+   margin-top: 2rem;
+}
+.carousel-inner{
+    padding: 0 70px;
+}
+ .carousel-item{
+    border-radius: 10px;
+    overflow: hidden;
+ }
+ /* members */
+
+ .figure-img{
+    width: auto;
+    height: 11rem;
+ }
+ .figure-caption{
+    color: white;
+ }
+/* discography */
+.card{
+    width: 15rem;
+    margin-bottom: .5rem;
+}
+.card-title{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+.card .btn{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-family: 'crazy';
+}
+
+.containerH3 img{
+    width: auto;
+    height: 1.8rem;
+}
+
+/* table */
+table{
+    font-family: Arial, Helvetica, sans-serif;
+}
+thead{
+    color: red;
+    border-bottom: red;
+}
+/* form */
+.form-control::placeholder { 
+    color: red;
+    font-family: 'hard rock';
+    opacity: 1; /* Firefox */
+}
+button{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-family: 'crazy';
+    width: 5rem;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: red;
+}
